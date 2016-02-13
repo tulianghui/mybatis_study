@@ -24,6 +24,6 @@ public class User {
     }
 
     public String toString(){
-        return this.name+this.id;
+        return "[" + this.id+ "]" + this.name;
     }
 }
